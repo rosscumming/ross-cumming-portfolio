@@ -2,4 +2,27 @@
   height: 50px;
   width: 100%;
   border-bottom: 1px solid #e6e6e6;
+  
+}
+
+
+.nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 50px;
+
+}
+
+.nav-li  {
+  display: inline;
+  text-decoration: none;
+  padding: 5px;
+
+    a {
+
+      text-decoration: none;
+
+    }
+
 }
