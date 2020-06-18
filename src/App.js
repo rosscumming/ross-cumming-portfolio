@@ -1,20 +1,20 @@
 import React from "react";
 import "./App.scss";
-import { BrowserRouter as Router, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
-import About from "./pages/About/About";
-import Projects from "./pages/Projects/Projects";
-import Home from "./pages/Home/Home";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
     <Router>
+      <Navbar />
       <div className="App">
-        <Navbar />
         <Switch>
-          <Home exact path="/" />
-          <About exact path="/about" />
-          <Projects exact path="/projects" />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/projects" component={Projects} />
         </Switch>
       </div>
     </Router>

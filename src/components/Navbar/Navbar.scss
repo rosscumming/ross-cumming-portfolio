@@ -1,6 +1,10 @@
 .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 50px;
   width: 100%;
+  padding: 0 180px;
   border-bottom: 1px solid #e6e6e6;
 }
 
@@ -8,30 +12,39 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  line-height: 50px;
+  display: flex;
 }
-
 
 .nav-active {
-  color: white !important;
-  background: blue;
-  padding: 5px;
-  border-radius: 5px;
+  font-weight: bold;
 }
 
-
 .nav-li {
-  display: inline;
   text-decoration: none;
   padding: 15px;
 
-  a, :visited, :link{
+  a,
+  :visited,
+  :link {
+    font-size: 0.8em;
+    text-transform: uppercase;
     text-decoration: none;
     color: black;
   }
-
-
-  
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
 
+.logo-text {
+  padding-left: 5px;
+}
