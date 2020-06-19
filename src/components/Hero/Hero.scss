@@ -30,11 +30,6 @@ $term-font: "Anonymous Pro", monospace;
   width: 50vw;
 }
 
-.portrait {
-  border-radius: 50%;
-  height: 350px;
-}
-
 .title {
   display: flex;
   font-size: 6em;
@@ -48,8 +43,8 @@ $term-font: "Anonymous Pro", monospace;
 }
 
 .img-box {
-  width: 500px;
-  height: 300px;
+  width: 580px;
+  height: 380px;
   background: $title;
   border-radius: 10px;
 }

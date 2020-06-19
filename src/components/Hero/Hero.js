@@ -43,7 +43,7 @@ const Hero = () => {
                   arrow_right_alt
                 </span>
                 <p className="current-dir">looking_for_work</p>
-                <p className="command-input">touch hire-me.html</p>
+                <p className="command-input">ready_to_start.js</p>
               </div>
               <div className="commands five">
                 <span className="material-icons arrow inner-arrow">
@@ -55,7 +55,7 @@ const Hero = () => {
               <div className="commands six">
                 <p className="current-dir ls">junior_developer</p>
                 <p className="current-dir ls">seeking_a_job</p>
-                <p className="command-input file">hire-me.html</p>
+                <p className="command-input file">ready_to_start.js</p>
               </div>
             </div>
           </section>
