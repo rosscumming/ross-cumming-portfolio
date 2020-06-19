@@ -3,6 +3,9 @@ $light-colour: #a384ff;
 $red: #ff6159;
 $yellow: #ffbd2e;
 $green: #29ce42;
+$light-green: #93fe98;
+$current-dir: #c0f7ff;
+$term-font: "Anonymous Pro", monospace;
 
 .hero {
   display: flex;
@@ -81,4 +84,43 @@ $green: #29ce42;
   .green {
     background: $green;
   }
+}
+
+.commands {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 13px;
+  font-family: $term-font;
+  letter-spacing: -0.5px;
+}
+
+.arrow {
+  color: #93fe98;
+  padding: 5px;
+}
+
+.current-dir {
+  color: $current-dir;
+  padding: 0 5px 3px 0;
+}
+
+.command-input {
+  padding-bottom: 3px;
+  letter-spacing: -0.5px;
+}
+
+.dir {
+  color: $current-dir;
+}
+
+.six {
+  padding-left: 13px;
+}
+
+.ls {
+  padding-right: 20px;
+}
+
+.file {
 }

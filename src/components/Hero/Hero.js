@@ -1,6 +1,5 @@
 import React from "react";
 import "./Hero.scss";
-import portrait from "../../images/portrait.png";
 
 const Hero = () => {
   return (
@@ -22,6 +21,49 @@ const Hero = () => {
             <div className="dots yellow"></div>
             <div className="dots green"></div>
           </div>
+
+          <section className="commands">
+            <div className="commands-cont">
+              <div className="commands one">
+                <span className="material-icons arrow">arrow_right_alt</span>
+                <p className="current-dir">projects</p>
+                <p className="command-input">take looking-for-work</p>
+              </div>
+              <div className="commands two">
+                <span className="material-icons arrow inner-arrow">
+                  arrow_right_alt
+                </span>
+                <p className="current-dir">looking-for-work</p>
+                <p className="command-input">mkdir junior_developer</p>
+              </div>
+              <div className="commands three">
+                <span className="material-icons arrow inner-arrow">
+                  arrow_right_alt
+                </span>
+                <p className="current-dir">looking-for-work</p>
+                <p className="command-input">mkdir seeking_a_job</p>
+              </div>
+              <div className="commands four">
+                <span className="material-icons arrow inner-arrow">
+                  arrow_right_alt
+                </span>
+                <p className="current-dir">looking-for-work</p>
+                <p className="command-input">touch hire-me.html</p>
+              </div>
+              <div className="commands five">
+                <span className="material-icons arrow inner-arrow">
+                  arrow_right_alt
+                </span>
+                <p className="current-dir">looking-for-work</p>
+                <p className="command-input">ls</p>
+              </div>
+              <div className="commands six">
+                <p className="current-dir ls">junior_developer</p>
+                <p className="current-dir ls">seeking_a_job</p>
+                <p className="command-input file">hire-me.html</p>
+              </div>
+            </div>
+          </section>
         </section>
       </section>
     </section>
