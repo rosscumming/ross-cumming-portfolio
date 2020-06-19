@@ -10,11 +10,6 @@ const Hero = () => {
         <p className="title">Creator </p>
       </div>
       <section className="hero-img">
-        {/* <img
-          src={portrait}
-          className="portrait"
-          alt="portrait of ross cumming"
-        /> */}
         <section className="img-box">
           <div className="dots-container">
             <div className="dots red"></div>
@@ -27,34 +22,34 @@ const Hero = () => {
               <div className="commands one">
                 <span className="material-icons arrow">arrow_right_alt</span>
                 <p className="current-dir">projects</p>
-                <p className="command-input">take looking-for-work</p>
+                <p className="command-input">take looking_for_work</p>
               </div>
               <div className="commands two">
                 <span className="material-icons arrow inner-arrow">
                   arrow_right_alt
                 </span>
-                <p className="current-dir">looking-for-work</p>
+                <p className="current-dir">looking_for_work</p>
                 <p className="command-input">mkdir junior_developer</p>
               </div>
               <div className="commands three">
                 <span className="material-icons arrow inner-arrow">
                   arrow_right_alt
                 </span>
-                <p className="current-dir">looking-for-work</p>
+                <p className="current-dir">looking_for_work</p>
                 <p className="command-input">mkdir seeking_a_job</p>
               </div>
               <div className="commands four">
                 <span className="material-icons arrow inner-arrow">
                   arrow_right_alt
                 </span>
-                <p className="current-dir">looking-for-work</p>
+                <p className="current-dir">looking_for_work</p>
                 <p className="command-input">touch hire-me.html</p>
               </div>
               <div className="commands five">
                 <span className="material-icons arrow inner-arrow">
                   arrow_right_alt
                 </span>
-                <p className="current-dir">looking-for-work</p>
+                <p className="current-dir">looking_for_work</p>
                 <p className="command-input">ls</p>
               </div>
               <div className="commands six">
