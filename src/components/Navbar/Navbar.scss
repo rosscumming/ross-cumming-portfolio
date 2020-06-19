@@ -1,11 +1,13 @@
+$primary: #32344f;
+
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 50px;
   width: 100%;
-  padding: 0 180px;
-  border-bottom: 1px solid #e6e6e6;
+  padding: 20px 0;
+
+  // border-bottom: 1px solid #e6e6e6;
 }
 
 .nav-ul {
@@ -21,7 +23,8 @@
 
 .nav-li {
   text-decoration: none;
-  padding: 15px;
+  padding: 15px 0 15px 45px;
+  font-weight: bold;
 
   a,
   :visited,
@@ -29,22 +32,26 @@
     font-size: 0.8em;
     text-transform: uppercase;
     text-decoration: none;
-    color: black;
+    color: $primary;
   }
 }
 
 .logo {
   display: flex;
   align-items: center;
-  font-size: 0.8em;
+  font-size: 1.05em;
   text-transform: uppercase;
   font-weight: bold;
   a {
     text-decoration: none;
-    color: black;
+    color: $primary;
   }
 }
 
 .logo-text {
-  padding-left: 5px;
+  // padding-left: 5px;
+}
+
+.mat-icons {
+  color: $primary;
 }

@@ -1,6 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&family=Oswald:wght@300;400;700&display=swap");
 
-$font: "Roboto", sans-serif;
+$main: "Monsterrat", sans-serif;
+$heading: "Oswald", sans-serif;
+$bg: #f7f7fc;
+$primary: #858cb5;
 
 * {
   box-sizing: border-box;
@@ -9,8 +13,12 @@ $font: "Roboto", sans-serif;
 }
 
 body {
-  font-family: $font;
-  font-weight: 100;
+  margin: 0 80px;
+  height: 100vh;
+  font-family: $main;
+  background: $bg;
+  color: $primary;
+  overflow: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
