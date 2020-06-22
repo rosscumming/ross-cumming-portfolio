@@ -16,6 +16,13 @@
   height: 250px;
   border: 5px solid white;
   border-radius: 50%;
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+
+    transform: scale(1.05);
+  }
 }
 
 .wave {
@@ -55,4 +62,16 @@
   top: -12px;
   position: relative;
   transform: scale(-1, -1);
+}
+
+@keyframes wobble {
+  0% {
+    scale: 1;
+  }
+  50% {
+    scale: 1.2;
+  }
+  100% {
+    scale: 1;
+  }
 }

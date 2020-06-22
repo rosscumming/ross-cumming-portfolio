@@ -5,9 +5,9 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="hero-text">
-        <p className="title">Designer</p>
-        <p className="title">Developer </p>
-        <p className="title">Creator </p>
+        <p className="title designer">Designer</p>
+        <p className="title developer">Developer</p>
+        <p className="title creator">Creator </p>
       </div>
       <section className="hero-img">
         <section className="img-box">
