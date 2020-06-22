@@ -1,13 +1,15 @@
 $primary: #32344f;
+$border: #e4e4e4;
+$light-colour: #a384ff;
 
 .nav-container {
+  padding: 10px 230px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 20px 0;
-
-  // border-bottom: 1px solid #e6e6e6;
+  // border-bottom: 2px solid $border;
 }
 
 .nav-ul {
@@ -34,6 +36,11 @@ $primary: #32344f;
     text-decoration: none;
     color: $primary;
   }
+}
+
+.nav-li :hover {
+  color: $light-colour;
+  transition: 0.2s;
 }
 
 .logo {

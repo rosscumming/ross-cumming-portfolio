@@ -8,11 +8,10 @@ $current-dir: #c0f7ff;
 $term-font: "Anonymous Pro", monospace;
 
 .hero {
+  padding: 100px 230px 20px;
   display: flex;
   flex-direction: row;
-  height: 500px;
   color: #fefefe;
-  overflow: hidden;
 }
 
 .hero-text {
@@ -43,8 +42,8 @@ $term-font: "Anonymous Pro", monospace;
 }
 
 .img-box {
-  width: 580px;
-  height: 380px;
+  width: 500px;
+  height: 300px;
   background: $title;
   border-radius: 10px;
 }

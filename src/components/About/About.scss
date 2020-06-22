@@ -1,0 +1,25 @@
+.about {
+  padding: 70px 230px 120px;
+  display: flex;
+  flex-direction: row;
+  background-color: #a384ff;
+}
+
+.about-inner {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.portrait {
+  height: 250px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+.wave {
+  position: relative;
+  bottom: -10px;
+  padding: 0;
+  margin: 0;
+}
