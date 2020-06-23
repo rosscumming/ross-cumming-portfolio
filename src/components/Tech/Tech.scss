@@ -27,32 +27,37 @@ $title: #32344f;
 }
 
 .tech-type-cont {
-  margin-top: 30px;
-  height: 300px;
+  margin-top: 70px;
   display: flex;
   flex-direction: row;
-
-  .front-end-cont {
-    width: 33.3%;
-  }
-
-  .back-end-cont {
-    width: 33.3%;
-    // border-left: 1px solid $title;
-    // border-right: 1px solid $title;
-  }
-
-  .other-cont {
-    width: 33.3%;
-  }
+  justify-content: space-around;
 
   .tech-head {
     height: 30px;
     color: $title;
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     font-weight: bold;
+    justify-content: center;
   }
+
+  .tech-name {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 0 0 0;
+  }
+}
+
+.icons {
+  margin-right: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-cont {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }

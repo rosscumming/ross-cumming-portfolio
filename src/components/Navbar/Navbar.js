@@ -13,13 +13,18 @@ const Navbar = () => {
         </div>
         <ul className="nav-ul">
           <li className="nav-li">
-            <NavLink smooth to="/#tech-stack" activeClassName="nav-active">
-              Projects
+            <NavLink smooth to="/#about" activeClassName="nav-active">
+              About
             </NavLink>
           </li>
           <li className="nav-li">
-            <NavLink exact to="/contact" activeClassName="nav-active">
-              Contact
+            <NavLink smooth to="/#tech-stack" activeClassName="nav-active">
+              Tech Stack
+            </NavLink>
+          </li>
+          <li className="nav-li">
+            <NavLink smooth to="/#tech-stack" activeClassName="nav-active">
+              Projects
             </NavLink>
           </li>
         </ul>
