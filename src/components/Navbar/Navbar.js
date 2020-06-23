@@ -27,6 +27,11 @@ const Navbar = () => {
               Projects
             </NavLink>
           </li>
+          <li className="nav-li">
+            <NavLink smooth to="/#tech-stack" activeClassName="nav-active">
+              Contact
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </header>

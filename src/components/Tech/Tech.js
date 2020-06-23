@@ -183,8 +183,8 @@ const Tech = () => {
               </span>
             </div>
           </div>
-          <div className="other-cont">
-            <p className="tech-head">Other</p>
+          <div className="misc-cont">
+            <p className="tech-head">Miscellaneous</p>
             <div className="inner-cont">
               <span className="tech-name">
                 <InlineIcon
