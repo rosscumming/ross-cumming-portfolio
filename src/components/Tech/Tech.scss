@@ -1,8 +1,58 @@
-.tech {
-  padding: 10px 230px 120px;
+$title: #32344f;
+
+#tech {
+  padding: 0px 230px 120px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .tech-cont {
-  height: 400px;
-  border-radius: 5px;
+}
+
+.tech-title {
+  padding: 0 0 20px;
+  color: $title;
+  font-size: 3em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.tech-p {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.tech-type-cont {
+  margin-top: 30px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+
+  .front-end-cont {
+    width: 33.3%;
+  }
+
+  .back-end-cont {
+    width: 33.3%;
+    // border-left: 1px solid $title;
+    // border-right: 1px solid $title;
+  }
+
+  .other-cont {
+    width: 33.3%;
+  }
+
+  .tech-head {
+    height: 30px;
+    color: $title;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
 }

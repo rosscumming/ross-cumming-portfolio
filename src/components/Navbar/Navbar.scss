@@ -53,12 +53,8 @@ $light-colour: #a384ff;
     text-decoration: none;
     color: $primary;
   }
-}
-
-.logo-text {
-  // padding-left: 5px;
-}
-
-.mat-icons {
-  color: $primary;
+  &:after {
+    content: ".codes";
+    color: $light-colour;
+  }
 }

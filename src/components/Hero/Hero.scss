@@ -7,7 +7,7 @@ $light-green: #93fe98;
 $current-dir: #c0f7ff;
 $term-font: "Anonymous Pro", monospace;
 
-.hero {
+#hero {
   padding: 100px 230px 20px;
   display: flex;
   flex-direction: row;
@@ -43,7 +43,7 @@ $term-font: "Anonymous Pro", monospace;
 
 .img-box {
   transform: translatey(0px);
-  animation: float 6s ease-in-out infinite;
+  animation: float 6s ease-in-out infinite, fadeIn 1s ease-in;
   width: 500px;
   height: 300px;
   background: $title;
@@ -118,7 +118,7 @@ $term-font: "Anonymous Pro", monospace;
   padding-right: 20px;
 }
 
-.developer {
+.designer {
   animation: fadeIn ease 3s;
   -webkit-animation: fadeIn ease 3s;
   -moz-animation: fadeIn ease 3s;
@@ -126,7 +126,7 @@ $term-font: "Anonymous Pro", monospace;
   -ms-animation: fadeIn ease 3s;
 }
 
-.designer {
+.developer {
   animation: fadeIn ease 1s;
   -webkit-animation: fadeIn ease 1s;
   -moz-animation: fadeIn ease 1s;
@@ -185,7 +185,7 @@ $term-font: "Anonymous Pro", monospace;
   }
   50% {
     box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
-    transform: translatey(-1px);
+    transform: translatey(-4px);
   }
   100% {
     box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);

@@ -6,14 +6,23 @@ import { ReactComponent as Wave } from "../../images/wave.svg";
 const About = () => {
   return (
     <>
-      <div className="wave">
+      <section className="wave">
         <Wave className="wave-svg" />
-      </div>
-      <section className="about">
+      </section>
+      <section id="about">
         <div className="about-inner">
-          <img className="portrait" src={portrait} />
+          <img
+            className="portrait"
+            src={portrait}
+            alt="circular portrait of ross cumming"
+          />
           <article className="about-me">
-            <h3 className="about-title">Hi, I'm Ross</h3>
+            <p className="about-title">
+              <span aria-label="waving hand emoji" role="img">
+                👋{" "}
+              </span>
+              Hi, I'm Ross
+            </p>
             <p>
               I'm an Edinburgh based Software Developer and recent graduate of
               CodeClan.
@@ -39,9 +48,9 @@ const About = () => {
           </article>
         </div>
       </section>
-      <div className="wave">
+      <section className="wave">
         <Wave className="wave-svg rotated" />
-      </div>
+      </section>
     </>
   );
 };
