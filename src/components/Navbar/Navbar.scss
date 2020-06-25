@@ -53,8 +53,12 @@ $light-colour: #a384ff;
     text-decoration: none;
     color: $primary;
   }
-  &:after {
-    content: ".codes";
-    color: $light-colour;
-  }
+  // &:after {
+  //   content: ".codes";
+  //   color: $light-colour;
+  // }
+}
+
+.codes {
+  color: $light-colour;
 }

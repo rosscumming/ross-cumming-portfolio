@@ -8,7 +8,7 @@ const Navbar = () => {
       <nav className="nav-container">
         <div className="logo">
           <NavLink className="logo-text" exact to="/">
-            rosscumming
+            rosscumming<span className="codes">.codes</span>
           </NavLink>
         </div>
         <ul className="nav-ul">
@@ -23,7 +23,7 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li className="nav-li">
-            <NavLink smooth to="/#tech-stack" activeClassName="nav-active">
+            <NavLink smooth to="/#projects" activeClassName="nav-active">
               Projects
             </NavLink>
           </li>

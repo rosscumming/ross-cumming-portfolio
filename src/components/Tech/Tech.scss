@@ -1,4 +1,5 @@
 $title: #32344f;
+$light-colour: #e6e6e6;
 
 #tech {
   padding: 0px 230px 120px;
@@ -6,9 +7,10 @@ $title: #32344f;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  border-bottom: 1px solid $light-colour;
 }
 
-.tech-title {
+.comp-title {
   padding: 0 0 20px;
   color: $title;
   font-size: 3em;
@@ -18,13 +20,14 @@ $title: #32344f;
   text-align: center;
 }
 
-.tech-p {
+.comp-p {
   text-align: center;
   padding: 10px 0;
 }
 
 .tech-type-cont {
   margin-top: 70px;
+  padding: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
