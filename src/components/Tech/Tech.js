@@ -20,6 +20,7 @@ import mongodbIcon from "@iconify/icons-logos/mongodb";
 import postgresqlIcon from "@iconify/icons-logos/postgresql";
 import gitIcon from "@iconify/icons-logos/git";
 import herokuIcon from "@iconify/icons-logos/heroku";
+import expressIcon from "@iconify/icons-logos/express";
 
 const Tech = () => {
   return (
@@ -154,6 +155,15 @@ const Tech = () => {
                     className="icons"
                   />
                   Node.js
+                </span>
+                <span className="tech-name">
+                  <InlineIcon
+                    icon={expressIcon}
+                    height={25}
+                    width={25}
+                    className="icons"
+                  />
+                  Express.js
                 </span>
                 <span className="tech-name">
                   <InlineIcon
