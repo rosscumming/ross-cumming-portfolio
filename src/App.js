@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 
 const App = () => {
   return (
-    <main className="App">
+    <main id="App">
       <Router>
         <Navbar />
         <Switch>

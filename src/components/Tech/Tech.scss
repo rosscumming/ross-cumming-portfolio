@@ -2,12 +2,51 @@ $title: #32344f;
 $light-colour: #e6e6e6;
 
 #tech {
-  padding: 0px 230px 120px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   border-bottom: 1px solid $light-colour;
+}
+
+@media only screen and (max-width: 480px) {
+  .tech-type-cont {
+    flex-direction: column !important;
+  }
+
+  .inner-cont {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+  }
+
+  .tech-name {
+    margin: 10px;
+  }
+
+  .front-end-cont,
+  .back-end-cont {
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .tech-type-cont {
+    flex-direction: column !important;
+  }
+
+  .inner-cont {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+  }
+
+  .tech-name {
+    margin: 10px;
+  }
+
+  .front-end-cont,
+  .back-end-cont {
+    padding-bottom: 10px;
+  }
 }
 
 .comp-title {
@@ -23,14 +62,24 @@ $light-colour: #e6e6e6;
 .comp-p {
   text-align: center;
   padding: 10px 0;
+  max-width: 800px;
+  width: 100%;
+}
+
+.text-cont {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .tech-type-cont {
   margin-top: 70px;
-  padding: 10px;
+  padding: 10px 10px 30px 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 
   .tech-head {
     height: 30px;

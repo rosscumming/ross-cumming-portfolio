@@ -4,7 +4,6 @@ $border: #e6e6e6;
 $bg: #f7f7fc;
 
 #projects {
-  padding: 0px 230px 120px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -16,6 +15,7 @@ $bg: #f7f7fc;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+  width: 100vw;
 }
 
 .comp-p {

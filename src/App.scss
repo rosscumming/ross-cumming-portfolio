@@ -13,8 +13,12 @@ $light-colour: #a384ff;
   margin: 0;
 }
 
+html,
 body {
-  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
   font-family: $main;
   background: $bg;
   color: $primary;

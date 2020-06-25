@@ -1,5 +1,4 @@
 #about {
-  padding: 10px 230px 10px;
   display: flex;
   flex-direction: row;
   background-color: #a384ff;
@@ -11,6 +10,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-top: 15px;
 }
 
 .portrait {
@@ -33,6 +33,9 @@
 }
 
 .about-me {
+  padding: 0 10px;
+  max-width: 800px;
+  width: 100%;
   margin-top: 40px;
   text-align: center;
   display: flex;

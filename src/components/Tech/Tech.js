@@ -27,17 +27,19 @@ const Tech = () => {
     <>
       <section id="tech">
         <div id="tech-stack" className="tech-cont">
-          <p className="comp-title">Tech Stack</p>
-          <p className="comp-p">
-            As a Front-End enthusiast, I've worked with many different
-            technologies. I really enjoy working with JavaScript and using React
-            as a framework.
-          </p>
-          <p className="comp-p">
-            Despite my preference for Front-End, I am very much open to Back-End
-            related positions too and am always keen to work with and explore
-            different languages.
-          </p>
+          <div className="text-cont">
+            <p className="comp-title">Tech Stack</p>
+            <p className="comp-p">
+              As a Front-End enthusiast, I've worked with many different
+              technologies. I really enjoy working with JavaScript and using
+              React as a framework.
+            </p>
+            <p className="comp-p">
+              Despite my preference for Front-End, I am very much open to
+              Back-End related positions too and am always keen to work with and
+              explore different languages.
+            </p>
+          </div>
 
           <section className="tech-type-cont">
             <div className="front-end-cont">
