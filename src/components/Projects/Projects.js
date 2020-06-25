@@ -19,7 +19,7 @@ const Projects = () => {
   return (
     <section id="projects">
       <p className="comp-title pro">Projects</p>
-      <p className="comp-p">Hover over the images for more details</p>
+      <p className="comp-p">Hover over the images for more details.</p>
 
       <div className="projects-cont">
         <div className="project one">

@@ -1,0 +1,39 @@
+$bg: #a384ff;
+$email: #32344f;
+
+#contact {
+  background: $bg;
+  color: white;
+  padding: 0px 230px 120px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comp-c {
+  padding: 0px 0 20px;
+  text-align: center;
+}
+
+.con {
+  color: white;
+}
+
+.social-media {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.email {
+  background: $email;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}

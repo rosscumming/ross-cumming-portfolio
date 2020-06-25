@@ -28,7 +28,7 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li className="nav-li">
-            <NavLink smooth to="/#tech-stack" activeClassName="nav-active">
+            <NavLink smooth to="/#contact" activeClassName="nav-active">
               Contact
             </NavLink>
           </li>
