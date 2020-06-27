@@ -44,7 +44,7 @@ const Hero = () => {
                     arrow_right_alt
                   </span>
                   <p className="current-dir">hey_im_ross</p>
-                  <p className="command-input">ready_to_start.js</p>
+                  <p className="command-input">touch ready_to_start.js</p>
                 </div>
                 <div className="commands five">
                   <span className="material-icons arrow inner-arrow">
