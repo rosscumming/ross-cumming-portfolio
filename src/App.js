@@ -5,12 +5,12 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home";
 import ReactGA from "react-ga";
 
-useEffect(() => {
-  ReactGA.initialize("UA-171409240-1");
-  ReactGA.pageview(window.location.pathname + window.location.search);
-}, []);
-
 const App = () => {
+  useEffect(() => {
+    ReactGA.initialize("UA-171409240-1");
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
+
   return (
     <main id="App">
       <Router>
