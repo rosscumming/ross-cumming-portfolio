@@ -3,6 +3,7 @@ import "./Projects.scss";
 import gymland from "../../images/gymland.png";
 import pubquizbuddy from "../../images/pubquizbuddy.png";
 import jobswipe from "../../images/jobswipe.png";
+import web_scraper from "../../images/web_scraper.png";
 import { InlineIcon } from "@iconify/react";
 import rubyIcon from "@iconify/icons-logos/ruby";
 import sinatraIcon from "@iconify/icons-logos/sinatra";
@@ -14,6 +15,8 @@ import mongodbIcon from "@iconify/icons-logos/mongodb";
 import reactIcon from "@iconify/icons-logos/react";
 import javaIcon from "@iconify/icons-logos/java";
 import springIcon from "@iconify/icons-logos/spring";
+import puppeteerIcon from '@iconify/icons-logos/puppeteer';
+
 
 const Projects = () => {
   return (
@@ -193,6 +196,52 @@ const Projects = () => {
               <a
                 className="git-link"
                 href="https://github.com/rosscumming/Java-Final-Project-Job-Search-App"
+              >
+                View on GitHub
+              </a>
+            </span>
+          </span>
+        </div>
+
+        <div className="project four">
+          <div className="project-img">
+            <img src={web_scraper} alt="Web scraper solo project" />
+            <div className="overlay">
+              <p>
+                A node web scraper I made to learn Puppeteer. Currently web
+                scrapes the National Lottery website for latest draw details and
+                returns this as well as the jackpot total for the next draw.
+              </p>
+            </div>
+          </div>
+          <span className="tech-used-cont">
+            <p className="project-title">National Lottery Web Scraper</p>
+            <span className="lang-cont">
+              <span className="lang-tag">
+                <InlineIcon
+                  icon={javascriptIcon}puppeteerIcon
+                  height={20}
+                  width={20}
+                  className="icons-projects"
+                />
+                JavaScript
+              </span>
+              <span className="lang-tag">
+                <InlineIcon
+                  icon={puppeteerIcon}
+                  height={20}
+                  width={20}
+                  className="icons-projects"
+                />
+                Puppeteer
+              </span>
+
+              
+            </span>
+            <span className="project-link">
+              <a
+                className="git-link"
+                href="https://github.com/rosscumming/web_scraper_lottery"
               >
                 View on GitHub
               </a>
