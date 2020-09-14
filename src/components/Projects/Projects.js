@@ -274,7 +274,7 @@ const Projects = () => {
             <span className="project-link">
               <a
                 className="git-link"
-                href="https://github.com/rosscumming/https://github.com/rosscumming/SwiftUI_App_VitaHealth"
+                href="https://github.com/rosscumming/SwiftUI_App_VitaHealth"
               >
                 View on GitHub
               </a>
