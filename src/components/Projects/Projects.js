@@ -4,6 +4,7 @@ import gymland from "../../images/gymland.png";
 import pubquizbuddy from "../../images/pubquizbuddy.png";
 import jobswipe from "../../images/jobswipe.png";
 import web_scraper from "../../images/web_scraper.png";
+import vitahealth from "../../images/vitahealth.png";
 import { InlineIcon } from "@iconify/react";
 import rubyIcon from "@iconify/icons-logos/ruby";
 import sinatraIcon from "@iconify/icons-logos/sinatra";
@@ -15,8 +16,8 @@ import mongodbIcon from "@iconify/icons-logos/mongodb";
 import reactIcon from "@iconify/icons-logos/react";
 import javaIcon from "@iconify/icons-logos/java";
 import springIcon from "@iconify/icons-logos/spring";
-import puppeteerIcon from '@iconify/icons-logos/puppeteer';
-
+import puppeteerIcon from "@iconify/icons-logos/puppeteer";
+import swiftIcon from "@iconify/icons-logos/swift";
 
 const Projects = () => {
   return (
@@ -219,7 +220,7 @@ const Projects = () => {
             <span className="lang-cont">
               <span className="lang-tag">
                 <InlineIcon
-                  icon={javascriptIcon}puppeteerIcon
+                  icon={javascriptIcon}
                   height={20}
                   width={20}
                   className="icons-projects"
@@ -235,13 +236,45 @@ const Projects = () => {
                 />
                 Puppeteer
               </span>
-
-              
             </span>
             <span className="project-link">
               <a
                 className="git-link"
                 href="https://github.com/rosscumming/web_scraper_lottery"
+              >
+                View on GitHub
+              </a>
+            </span>
+          </span>
+        </div>
+        <div className="project four">
+          <div className="project-img">
+            <img src={vitahealth} alt="VitaHealth iOS App" />
+            <div className="overlay">
+              <p>
+                An app mock-up I designed to learn and understand Native App
+                Development for iOS using SwiftUI. Still a work in progress with
+                an end goal to publish to the App store.
+              </p>
+            </div>
+          </div>
+          <span className="tech-used-cont">
+            <p className="project-title">VitaHealth iOS App</p>
+            <span className="lang-cont">
+              <span className="lang-tag">
+                <InlineIcon
+                  icon={swiftIcon}
+                  height={20}
+                  width={20}
+                  className="icons-projects"
+                />
+                SwiftUI
+              </span>
+            </span>
+            <span className="project-link">
+              <a
+                className="git-link"
+                href="https://github.com/rosscumming/https://github.com/rosscumming/SwiftUI_App_VitaHealth"
               >
                 View on GitHub
               </a>
