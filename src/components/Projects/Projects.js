@@ -5,6 +5,7 @@ import pubquizbuddy from "../../images/pubquizbuddy.png";
 import jobswipe from "../../images/jobswipe.png";
 import web_scraper from "../../images/web_scraper.png";
 import vitahealth from "../../images/vitahealth.png";
+import goldenshoe from "../../images/goldenshoe.png";
 import { InlineIcon } from "@iconify/react";
 import rubyIcon from "@iconify/icons-logos/ruby";
 import sinatraIcon from "@iconify/icons-logos/sinatra";
@@ -26,7 +27,7 @@ const Projects = () => {
       <p className="comp-p">Hover over the images for more details.</p>
 
       <div className="projects-cont">
-        <div className="project one">
+        <div className="project">
           <div className="project-img">
             <img src={gymland} alt="gymland solo project" />
             <div className="overlay">
@@ -77,7 +78,7 @@ const Projects = () => {
           </span>
         </div>
 
-        <div className="project two">
+        <div className="project">
           <div className="project-img">
             <img src={pubquizbuddy} alt="pub quiz buddy group project" />
             <div className="overlay">
@@ -137,7 +138,7 @@ const Projects = () => {
             </span>
           </span>
         </div>
-        <div className="project three">
+        <div className="project">
           <div className="project-img">
             <img src={jobswipe} alt="JobSwipe group project" />
             <div className="overlay">
@@ -204,7 +205,7 @@ const Projects = () => {
           </span>
         </div>
 
-        <div className="project four">
+        <div className="project">
           <div className="project-img">
             <img src={web_scraper} alt="Web scraper solo project" />
             <div className="overlay">
@@ -247,7 +248,7 @@ const Projects = () => {
             </span>
           </span>
         </div>
-        <div className="project four">
+        <div className="project">
           <div className="project-img">
             <img src={vitahealth} alt="VitaHealth iOS App" />
             <div className="overlay">
@@ -278,6 +279,64 @@ const Projects = () => {
               >
                 View on GitHub
               </a>
+            </span>
+          </span>
+        </div>
+        <div className="project">
+          <div className="project-img">
+            <img src={goldenshoe} alt="E-commerce Website" />
+            <div className="overlay">
+              <p>
+                An on-going e-commerce website I created with functional
+                front-end and back-end code. Created to practise React and
+                handling data.
+              </p>
+            </div>
+          </div>
+          <span className="tech-used-cont">
+            <p className="project-title">E-commerce Website</p>
+            <span className="lang-cont">
+              <span className="lang-tag">
+                <InlineIcon
+                  icon={javascriptIcon}
+                  height={20}
+                  width={20}
+                  className="icons-projects"
+                />
+                <InlineIcon
+                  icon={reactIcon}
+                  height={20}
+                  width={20}
+                  className="icons-projects"
+                />
+                JavaScript/React
+              </span>
+              <span className="lang-tag">
+                <InlineIcon
+                  icon={expressIcon}
+                  height={20}
+                  width={20}
+                  className="icons-projects"
+                />
+                Express.js
+              </span>
+              <span className="lang-tag">
+                <InlineIcon
+                  icon={mongodbIcon}
+                  height={20}
+                  width={20}
+                  className="icons-projects"
+                />
+                mongoDB
+              </span>
+              <span className="project-link">
+                <a
+                  className="git-link"
+                  href="https://github.com/rosscumming/golden_shoe_demo"
+                >
+                  View on GitHub
+                </a>
+              </span>
             </span>
           </span>
         </div>
