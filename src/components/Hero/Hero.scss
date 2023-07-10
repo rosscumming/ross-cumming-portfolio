@@ -5,7 +5,7 @@ $yellow: #ffbd2e;
 $green: #29ce42;
 $light-green: #93fe98;
 $current-dir: #c0f7ff;
-$term-font: "Anonymous Pro", monospace;
+$term-font: 'Anonymous Pro', monospace;
 
 #hero {
   display: flex;
@@ -108,14 +108,13 @@ $term-font: "Anonymous Pro", monospace;
   padding: 0;
 
   &:after {
-    content: ".";
+    content: '.';
     color: $light-colour;
   }
 }
 
 .img-box {
   transform: translatey(0px);
-  animation: float 6s ease-in-out infinite, fadeIn 1s ease-in;
   width: 500px;
   max-width: 100vw;
   height: 300px;
@@ -246,20 +245,5 @@ $term-font: "Anonymous Pro", monospace;
   }
   100% {
     opacity: 1;
-  }
-}
-
-@keyframes float {
-  0% {
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-    transform: translatey(0px);
-  }
-  50% {
-    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
-    transform: translatey(-4px);
-  }
-  100% {
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-    transform: translatey(0px);
   }
 }
