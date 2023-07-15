@@ -1,15 +1,22 @@
-import React, { useEffect } from "react";
-import "./App.scss";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Navbar from "./components/Navbar/Navbar";
-import Home from "./pages/Home";
-import ReactGA from "react-ga";
+import React, { useEffect } from 'react';
+import './App.scss';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  useLocation,
+} from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
+import Home from './pages/Home';
+import ReactGA from 'react-ga';
 
 const App = () => {
+  const location = useLocation();
+
   useEffect(() => {
-    ReactGA.initialize("UA-171409240-1");
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
+    ReactGA.initialize('G-4QNWY8D6X6');
+    ReactGA.send({ hitType: 'pageview', page: location.pathname });
+  }, [location]);
 
   return (
     <main id="App">
