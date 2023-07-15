@@ -44,7 +44,7 @@ const Hero = () => {
                     arrow_right_alt
                   </span>
                   <p className="current-dir">about_me</p>
-                  <p className="command-input">touch trust_pilot.ts</p>
+                  <p className="command-input">touch trustpilot.ts</p>
                 </div>
                 <div className="commands five">
                   <span className="material-icons arrow inner-arrow">
@@ -56,7 +56,7 @@ const Hero = () => {
                 <div className="commands six">
                   <p className="current-dir ls">hey_im_ross</p>
                   <p className="current-dir ls"> currently_working_at</p>
-                  <p className="command-input file">trust_pilot.ts</p>
+                  <p className="command-input file">trustpilot.ts</p>
                 </div>
               </div>
             </section>

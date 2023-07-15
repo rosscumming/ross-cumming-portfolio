@@ -10,7 +10,7 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home';
 import ReactGA from 'react-ga4';
 
-const App = () => {
+const PageView = () => {
   const location = useLocation();
 
   useEffect(() => {
@@ -18,10 +18,15 @@ const App = () => {
     ReactGA.send({ hitType: 'pageview', page: location.pathname });
   }, [location]);
 
+  return null;
+};
+
+const App = () => {
   return (
     <main id="App">
       <Router>
         <Navbar />
+        <PageView />
         <Switch>
           <Route exact path="/" component={Home} />
         </Switch>
