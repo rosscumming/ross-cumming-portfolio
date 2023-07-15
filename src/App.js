@@ -8,7 +8,7 @@ import {
 } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 const App = () => {
   const location = useLocation();
