@@ -1,9 +1,8 @@
-import React from 'react';
-import '../Footer/Footer.scss';
-
-const year = new Date().getFullYear();
+import './Footer.scss';
 
 const Footer = () => {
+  const year = new Date().getFullYear();
+
   return <section id="footer"> © {year} Ross Cumming </section>;
 };
 

@@ -89,19 +89,11 @@ $light-colour: #e6e6e6;
     font-weight: bold;
     justify-content: center;
   }
-
-  .tech-name {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    padding: 10px 0 0 0;
-  }
 }
 
-.icons {
-  margin-right: 25px;
+.tech-category {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
 }
 

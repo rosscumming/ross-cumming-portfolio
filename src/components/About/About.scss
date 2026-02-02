@@ -25,13 +25,6 @@
   }
 }
 
-.wave {
-  position: relative;
-  bottom: -10px;
-  padding: 0;
-  margin: 0;
-}
-
 .about-me {
   padding: 0 10px;
   max-width: 800px;
@@ -61,22 +54,4 @@
   text-decoration: none;
   font-weight: bold;
   font-size: 0.9em;
-}
-
-.rotated {
-  top: -12px;
-  position: relative;
-  transform: scale(-1, -1);
-}
-
-@keyframes wobble {
-  0% {
-    scale: 1;
-  }
-  50% {
-    scale: 1.2;
-  }
-  100% {
-    scale: 1;
-  }
 }
