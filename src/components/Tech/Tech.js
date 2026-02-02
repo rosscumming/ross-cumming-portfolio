@@ -1,26 +1,6 @@
 import React from 'react';
 import './Tech.scss';
-import { InlineIcon } from '@iconify/react';
-import javascriptIcon from '@iconify/icons-logos/javascript';
-import html5 from '@iconify/icons-logos/html-5';
-import css3 from '@iconify/icons-logos/css-3';
-import reactIcon from '@iconify/icons-logos/react';
-import sassIcon from '@iconify/icons-logos/sass';
-import vueIcon from '@iconify/icons-logos/vue';
-import rubyIcon from '@iconify/icons-logos/ruby';
-import sinatraIcon from '@iconify/icons-logos/sinatra';
-import pythonIcon from '@iconify/icons-logos/python';
-import djangoIcon from '@iconify/icons-logos/django';
-import flaskIcon from '@iconify/icons-logos/flask';
-import nodejsIcon from '@iconify/icons-logos/nodejs';
-import denoIcon from '@iconify/icons-logos/deno';
-import javaIcon from '@iconify/icons-logos/java';
-import springIcon from '@iconify/icons-logos/spring';
-import mongodbIcon from '@iconify/icons-logos/mongodb';
-import postgresqlIcon from '@iconify/icons-logos/postgresql';
-import gitIcon from '@iconify/icons-logos/git';
-import herokuIcon from '@iconify/icons-logos/heroku';
-import expressIcon from '@iconify/icons-logos/express';
+import { Icon } from '@iconify/react';
 
 const Tech = () => {
   return (
@@ -46,8 +26,8 @@ const Tech = () => {
               <p className='tech-head'>Front-End</p>
               <div className='inner-cont'>
                 <span className='tech-name'>
-                  <InlineIcon
-                    icon={javascriptIcon}
+                  <Icon
+                    icon="logos:javascript"
                     height={25}
                     width={25}
                     className='icons'
@@ -55,8 +35,8 @@ const Tech = () => {
                   JavaScript
                 </span>
                 <span className='tech-name'>
-                  <InlineIcon
-                    icon={html5}
+                  <Icon
+                    icon="logos:html-5"
                     height={25}
                     width={25}
                     className='icons'
@@ -64,8 +44,8 @@ const Tech = () => {
                   HTML5
                 </span>
                 <span className='tech-name'>
-                  <InlineIcon
-                    icon={css3}
+                  <Icon
+                    icon="logos:css-3"
                     height={25}
                     width={25}
                     className='icons'
@@ -73,8 +53,8 @@ const Tech = () => {
                   CSS3
                 </span>
                 <span className='tech-name'>
-                  <InlineIcon
-                    icon={sassIcon}
+                  <Icon
+                    icon="logos:sass"
                     height={25}
                     width={25}
                     className='icons'
@@ -82,8 +62,8 @@ const Tech = () => {
                   SASS/SCSS
                 </span>
                 <span className='tech-name'>
-                  <InlineIcon
-                    icon={reactIcon}
+                  <Icon
+                    icon="logos:react"
                     height={25}
                     width={25}
                     className='icons'
@@ -91,8 +71,8 @@ const Tech = () => {
                   React
                 </span>
                 <span className='tech-name'>
-                  <InlineIcon
-                    icon={vueIcon}
+                  <Icon
+                    icon="logos:vue"
                     height={25}
                     width={25}
                     className='icons'
@@ -105,8 +85,8 @@ const Tech = () => {
               <p className='tech-head'>Back-End</p>
               <div className='inner-cont'>
                 <span className='tech-name'>
-                  <InlineIcon
-                    icon={rubyIcon}
+                  <Icon
+                    icon="logos:ruby"
                     height={25}
                     width={25}
                     className='icons'
@@ -114,8 +94,8 @@ const Tech = () => {
                   Ruby
                 </span>
                 <span className='tech-name'>
-                  <InlineIcon
-                    icon={sinatraIcon}
+                  <Icon
+                    icon="logos:sinatra"
                     height={25}
                     width={25}
                     className='icons'
@@ -123,8 +103,8 @@ const Tech = () => {
                   Sinatra
                 </span>
                 <span className='tech-name'>
-                  <InlineIcon
-                    icon={pythonIcon}
+                  <Icon
+                    icon="logos:python"
                     height={25}
                     width={25}
                     className='icons'
@@ -132,8 +112,8 @@ const Tech = () => {
                   Python
                 </span>
                 <span className='tech-name'>
-                  <InlineIcon
-                    icon={djangoIcon}
+                  <Icon
+                    icon="logos:django-icon"
                     height={25}
                     width={25}
                     className='icons'
@@ -141,8 +121,8 @@ const Tech = () => {
                   Django
                 </span>
                 <span className='tech-name'>
-                  <InlineIcon
-                    icon={flaskIcon}
+                  <Icon
+                    icon="logos:flask"
                     height={25}
                     width={25}
                     className='icons'
@@ -150,8 +130,8 @@ const Tech = () => {
                   Flask
                 </span>
                 <span className='tech-name'>
-                  <InlineIcon
-                    icon={nodejsIcon}
+                  <Icon
+                    icon="logos:nodejs-icon"
                     height={25}
                     width={25}
                     className='icons'
@@ -159,8 +139,8 @@ const Tech = () => {
                   Node.js
                 </span>
                 <span className='tech-name'>
-                  <InlineIcon
-                    icon={expressIcon}
+                  <Icon
+                    icon="logos:express"
                     height={25}
                     width={25}
                     className='icons'
@@ -168,8 +148,8 @@ const Tech = () => {
                   Express.js
                 </span>
                 <span className='tech-name'>
-                  <InlineIcon
-                    icon={denoIcon}
+                  <Icon
+                    icon="logos:deno"
                     height={25}
                     width={25}
                     className='icons'
@@ -177,8 +157,8 @@ const Tech = () => {
                   Deno
                 </span>
                 <span className='tech-name'>
-                  <InlineIcon
-                    icon={javaIcon}
+                  <Icon
+                    icon="logos:java"
                     height={25}
                     width={25}
                     className='icons'
@@ -186,8 +166,8 @@ const Tech = () => {
                   Java
                 </span>
                 <span className='tech-name'>
-                  <InlineIcon
-                    icon={springIcon}
+                  <Icon
+                    icon="logos:spring-icon"
                     height={25}
                     width={25}
                     className='icons'
@@ -200,8 +180,8 @@ const Tech = () => {
               <p className='tech-head'>Miscellaneous</p>
               <div className='inner-cont'>
                 <span className='tech-name'>
-                  <InlineIcon
-                    icon={mongodbIcon}
+                  <Icon
+                    icon="logos:mongodb-icon"
                     height={25}
                     width={25}
                     className='icons'
@@ -209,8 +189,8 @@ const Tech = () => {
                   mongoDB
                 </span>
                 <span className='tech-name'>
-                  <InlineIcon
-                    icon={postgresqlIcon}
+                  <Icon
+                    icon="logos:postgresql"
                     height={25}
                     width={25}
                     className='icons postg'
@@ -218,8 +198,8 @@ const Tech = () => {
                   PostgreSQL
                 </span>
                 <span className='tech-name'>
-                  <InlineIcon
-                    icon={gitIcon}
+                  <Icon
+                    icon="logos:git-icon"
                     height={25}
                     width={25}
                     className='icons'
@@ -227,8 +207,8 @@ const Tech = () => {
                   Git
                 </span>
                 <span className='tech-name'>
-                  <InlineIcon
-                    icon={herokuIcon}
+                  <Icon
+                    icon="logos:heroku-icon"
                     height={25}
                     width={25}
                     className='icons'

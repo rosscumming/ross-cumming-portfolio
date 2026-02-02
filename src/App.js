@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './App.scss';
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
   useLocation,
 } from 'react-router-dom';
@@ -27,9 +27,9 @@ const App = () => {
       <Router>
         <Navbar />
         <PageView />
-        <Switch>
-          <Route exact path="/" component={Home} />
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
       </Router>
     </main>
   );

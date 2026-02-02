@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.scss";
-import { NavHashLink as NavLink } from "react-router-hash-link";
+import { NavHashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   return (
@@ -8,30 +8,30 @@ const Navbar = () => {
       <nav className="nav-container">
         <span className="nav-wrap">
           <div className="logo">
-            <NavLink className="logo-text" exact to="/">
+            <NavHashLink className="logo-text" to="/">
               rosscumming<span className="codes">.codes</span>
-            </NavLink>
+            </NavHashLink>
           </div>
           <ul className="nav-ul">
             <li className="nav-li">
-              <NavLink smooth to="/#about" activeClassName="nav-active">
+              <NavHashLink smooth to="/#about">
                 About
-              </NavLink>
+              </NavHashLink>
             </li>
             <li className="nav-li">
-              <NavLink smooth to="/#tech-stack" activeClassName="nav-active">
+              <NavHashLink smooth to="/#tech-stack">
                 Tech Stack
-              </NavLink>
+              </NavHashLink>
             </li>
             <li className="nav-li">
-              <NavLink smooth to="/#projects" activeClassName="nav-active">
+              <NavHashLink smooth to="/#projects">
                 Projects
-              </NavLink>
+              </NavHashLink>
             </li>
             <li className="nav-li">
-              <NavLink smooth to="/#contact" activeClassName="nav-active">
+              <NavHashLink smooth to="/#contact">
                 Contact
-              </NavLink>
+              </NavHashLink>
             </li>
           </ul>
         </span>

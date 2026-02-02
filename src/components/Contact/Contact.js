@@ -1,10 +1,6 @@
 import React from "react";
 import "./Contact.scss";
-import { InlineIcon } from "@iconify/react";
-import linkedinIcon from "@iconify/icons-logos/linkedin";
-import githubIcon from "@iconify/icons-logos/github-icon";
-import twitterIcon from "@iconify/icons-logos/twitter";
-import codepenIcon from "@iconify/icons-logos/codepen";
+import { Icon } from "@iconify/react";
 import { ReactComponent as Wave } from "../../images/wave.svg";
 
 const Contact = () => {
@@ -23,8 +19,8 @@ const Contact = () => {
         <span className="social-media">
           <span className="twitter">
             <a href="https://twitter.com/itsrossc">
-              <InlineIcon
-                icon={twitterIcon}
+              <Icon
+                icon="logos:twitter"
                 height={60}
                 width={60}
                 className="icons-projects icon-contact"
@@ -34,8 +30,8 @@ const Contact = () => {
 
           <span className="linked">
             <a href="https://www.linkedin.com/in/ross-cumming">
-              <InlineIcon
-                icon={linkedinIcon}
+              <Icon
+                icon="logos:linkedin-icon"
                 height={60}
                 width={60}
                 className="icons-projects icon-contact"
@@ -44,8 +40,8 @@ const Contact = () => {
           </span>
           <span className="codepen">
             <a href="https://codepen.io/rosscumming">
-              <InlineIcon
-                icon={codepenIcon}
+              <Icon
+                icon="logos:codepen-icon"
                 height={60}
                 width={60}
                 className="icons-projects icon-contact"
@@ -54,8 +50,8 @@ const Contact = () => {
           </span>
           <span className="github">
             <a href="https://github.com/rosscumming">
-              <InlineIcon
-                icon={githubIcon}
+              <Icon
+                icon="logos:github-icon"
                 height={60}
                 width={60}
                 className="icons-projects icon-contact"
