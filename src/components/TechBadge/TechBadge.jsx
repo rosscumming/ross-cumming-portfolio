@@ -1,9 +1,8 @@
 import { Icon } from '@iconify/react';
-import './TechBadge.scss';
 
 const TechBadge = ({ icon, name, size = 25 }) => (
-  <span className="tech-badge">
-    <Icon icon={icon} height={size} width={size} className="tech-badge__icon" />
+  <span className="flex items-center pt-2.5">
+    <Icon icon={icon} height={size} width={size} className="mr-6.25 flex justify-center items-center" />
     {name}
   </span>
 );

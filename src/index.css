@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&family=Oswald:wght@300;400;700&family=Anonymous+Pro:wght@700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #858cb5;
+  --color-title: #32344f;
+  --color-accent: #a384ff;
+  --color-bg: #f7f7fc;
+  --color-border: #e6e6e6;
+
+  --color-term-red: #ff6159;
+  --color-term-yellow: #ffbd2e;
+  --color-term-green: #29ce42;
+  --color-term-light-green: #93fe98;
+  --color-term-dir: #c0f7ff;
+
+  --font-main: 'Montserrat', sans-serif;
+  --font-heading: 'Oswald', sans-serif;
+  --font-terminal: 'Anonymous Pro', monospace;
+
+  --breakpoint-xs: 320px;
+  --breakpoint-mobile: 380px;
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 700px;
+  --breakpoint-lg: 1200px;
+
+  --animate-fade-in: fadeIn ease 1s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  80% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: var(--font-main);
+    background: var(--color-bg);
+    color: var(--color-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .developer { animation: fadeIn ease 1s; }
+  .designer { animation: fadeIn ease 3s; }
+  .creator { animation: fadeIn ease 5s; }
+
+  .wave {
+    position: relative;
+    bottom: -10px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .wave-svg.rotated {
+    top: -12px;
+    position: relative;
+    transform: scale(-1, -1);
+  }
+}

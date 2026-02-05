@@ -1,10 +1,9 @@
-import { ReactComponent as WaveSvg } from '../../images/wave.svg';
-import './Wave.scss';
+import WaveSvg from '../../images/wave.svg?react';
 
 const Wave = ({ rotated = false }) => (
-  <section className="wave">
+  <div className="wave">
     <WaveSvg className={`wave-svg ${rotated ? 'rotated' : ''}`} />
-  </section>
+  </div>
 );
 
 export default Wave;
