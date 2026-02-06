@@ -1,9 +1,9 @@
 export const socialLinks = [
   {
-    id: 'twitter',
-    icon: 'logos:twitter',
-    url: 'https://twitter.com/itsrossc',
-    label: 'Twitter',
+    id: 'x',
+    icon: 'logos:x',
+    url: 'https://x.com/itsrossc',
+    label: 'X',
   },
   {
     id: 'linkedin',
