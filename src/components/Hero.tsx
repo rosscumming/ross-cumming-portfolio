@@ -1,7 +1,15 @@
 import { useState, useEffect } from 'react';
 import { bio } from '../data/bio';
 
-const Typewriter = ({ text, delay = 0, speed = 70, onDone, className }) => {
+interface TypewriterProps {
+  text: string;
+  delay?: number;
+  speed?: number;
+  onDone?: () => void;
+  className?: string;
+}
+
+const Typewriter = ({ text, delay = 0, speed = 70, onDone, className }: TypewriterProps) => {
   const [displayed, setDisplayed] = useState('');
   const [started, setStarted] = useState(false);
 

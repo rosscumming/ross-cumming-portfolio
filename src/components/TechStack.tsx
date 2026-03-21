@@ -1,7 +1,7 @@
 import { Icon } from '@iconify/react';
 import { techStack } from '../data/techStack';
 
-const categories = [
+const categories: { key: keyof typeof techStack; label: string }[] = [
   { key: 'frontend', label: 'Frontend' },
   { key: 'backend', label: 'Backend' },
   { key: 'testing', label: 'Testing' },
